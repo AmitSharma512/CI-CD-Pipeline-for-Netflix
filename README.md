@@ -179,7 +179,7 @@ pipeline{
         }
         stage('Checkout from Git'){
             steps{
-                git branch: 'main', url: 'https://github.com/AmitSharma512/CI/CD_Pipeline_for_FilmFlix.git'
+                git branch: 'main', url: 'https://github.com/AmitSharma512/CI-CD_Pipeline_for_FilmFlix.git'
             }
         }
         stage("Sonarqube Analysis "){
